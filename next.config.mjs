@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    optimizeCss: false, // Disable CSS optimization temporarily
-  },
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: [], // Add any external image domains if needed
+    unoptimized: true,
   },
+  distDir: '.next'
 };
 
 export default nextConfig;
