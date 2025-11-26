@@ -298,7 +298,7 @@ const Index = () => {
               Experience Codur before anyone else. No credit card. No commitment.
             </p>
 
-            <Button size="lg" className="mb-12">
+            <Button size="lg" className="mb-12 bg-accent hover:bg-accent/90 text-accent-foreground">
               Get Free Beta Access
             </Button>
 
