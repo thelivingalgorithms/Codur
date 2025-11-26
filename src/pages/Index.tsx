@@ -29,7 +29,9 @@ const Index = () => {
       {/* Hero Section */}
       <section className="container mx-auto px-6 pt-20 pb-24 md:pt-32 md:pb-32">
         <div className="max-w-4xl mx-auto text-center">
-          
+          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-2 text-sm font-medium text-foreground mb-5 shadow-sm">
+            <span className="text-accent">By The Living Algorithms</span>
+          </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-6 animate-fade-in">
             Understand Any Codebase in{" "}
             <span className="text-primary">Seconds</span>

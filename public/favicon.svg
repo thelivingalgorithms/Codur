@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Codur">
+  <rect width="64" height="64" rx="14" fill="#10b981" />
+  <path d="M27 16 L15 32 L27 48" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M37 16 L49 32 L37 48" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
