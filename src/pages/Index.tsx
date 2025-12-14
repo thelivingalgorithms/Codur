@@ -19,9 +19,11 @@ const Index = () => {
           </a>
           <a href="#beta" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Beta Access</a>
           <Button variant="outline" size="sm">Sign In</Button>
-          <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-            Install Extension
-          </Button>
+          <a href="https://marketplace.visualstudio.com/items?itemName=thelivingalgorithms.codur" target="_blank" rel="noopener noreferrer">
+            <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+              Install Extension
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
@@ -40,11 +42,13 @@ const Index = () => {
           Codur gives developers instant clarity with AI-powered explanations, visual maps, and intelligent analysis — all inside VS Code.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in">
-          <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground gap-2 h-12 px-8">
-            <Terminal className="h-4 w-4" />
-            Install on VS Code
-            <ArrowRight className="h-4 w-4" />
-          </Button>
+          <a href="https://marketplace.visualstudio.com/items?itemName=thelivingalgorithms.codur" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground gap-2 h-12 px-8">
+              <Terminal className="h-4 w-4" />
+              Install on VS Code
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </a>
           <Button size="lg" variant="outline" className="h-12 px-8">
             Try Interactive Demo
           </Button>
@@ -340,11 +344,13 @@ const Index = () => {
           Join thousands of developers who've transformed their workflow with Codur.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground gap-2 h-12 px-8">
-            <Terminal className="h-4 w-4" />
-            Install Codur for VS Code
-            <ArrowRight className="h-4 w-4" />
-          </Button>
+          <a href="https://marketplace.visualstudio.com/items?itemName=thelivingalgorithms.codur" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground gap-2 h-12 px-8">
+              <Terminal className="h-4 w-4" />
+              Install Codur for VS Code
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </a>
           <Button size="lg" variant="outline" className="h-12 px-8">
             Watch Demo
           </Button>
